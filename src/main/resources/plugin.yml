@@ -1,0 +1,6 @@
+name: WCSession
+main: com.github.winneonsword.WCS.MainWCS
+version: 1.0-o
+commands:
+    wcs:
+        description: WCS Main Command
