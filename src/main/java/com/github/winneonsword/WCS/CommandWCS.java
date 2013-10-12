@@ -68,6 +68,10 @@ public class CommandWCS implements CommandExecutor {
 						
 						sender.sendMessage(rA("&5- &dWebsite: &cTimed Out or Offline"));
 						
+					} else {
+						
+						sender.sendMessage(rA("&5- &dWebsite: &cTimed Out or Offline"));
+						
 					}
 					
 					if (login.equals("green")){
@@ -81,6 +85,10 @@ public class CommandWCS implements CommandExecutor {
 					} else if (login.equals("red")){
 						
 						sender.sendMessage(rA("&5- &dLogin: &cTimed Out or Offline"));
+						
+					} else {
+						
+						sender.sendMessage(rA("&5- &dWebsite: &cTimed Out or Offline"));
 						
 					}
 					
@@ -96,6 +104,10 @@ public class CommandWCS implements CommandExecutor {
 						
 						sender.sendMessage(rA("&5- &dSession: &cTimed Out or Offline"));
 						
+					} else {
+						
+						sender.sendMessage(rA("&5- &dWebsite: &cTimed Out or Offline"));
+						
 					}
 					
 					if (skins.equals("green")){
@@ -109,6 +121,10 @@ public class CommandWCS implements CommandExecutor {
 					} else if (skins.equals("red")){
 						
 						sender.sendMessage(rA("&5- &dSkins: &cTimed Out or Offline"));
+						
+					} else {
+						
+						sender.sendMessage(rA("&5- &dWebsite: &cTimed Out or Offline"));
 						
 					}
 					
